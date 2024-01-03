@@ -13,7 +13,7 @@ app.use(json());
 
 app.use("/api/v1", urlRouter);
 app.get("/", (req, res) => {
-  res.send("welcome");
+  res.send("<h1>WELCOME</h1>");
 });
 
 const port = process.env.PORT || 3000;
